@@ -1,32 +1,16 @@
 body {
-    background-color: aquamarine;
+    background-color: 
 }
 
 .flex-example {
-    height: 100vh; 
+    height: 50vh; 
+    width: 40%;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: aquamarine;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
 }
-
-.flex-heading {
-    font-size: 25px;
-    margin-bottom: 30px;
-}
-
-.container {
-    border: 5px dotted yellow;
-    position: relative;
-    width: 70%;
-    min-height: 50%;
-    padding: 25px 0;
-    display: flex;
-    background-color: yellow;
-    align-items: flex-end;
-}
-
 .card {
     background-color: red;
     border: 1px solid black;
@@ -56,35 +40,28 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: aquamarine;
+
+}
+.container {
+    width: 100%;
+    min-height: 50%;
+    padding: 25px 0;
+    display: flex;
+    background-color: yellow;
+    align-items: flex-end;
 }
 
-.card1 {
-    background-color: red;
-    border: 1px solid black;
-    border-radius: 15px;
-    min-width: 100px;
-    min-height: 200px;
-    margin: 20px;
+.container2 {
+    width: 100%;
+    min-height: 50%;
+    padding: 25px 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 180px;}
-
-    .container2 {
-        border: 5px dotted yellow;
-        position: relative;
-        width: 70%;
-        min-height: 50%;
-        padding: 25px 0;
-        display: flex;
-        background-color: yellow;
-        justify-content: center;
-    }
+    background-color: yellow;
+    justify-content:center; }
 
     .container3 {
-        border: 5px dotted yellow;
-        position: relative;
-        width: 70%;
+
+        width: 100%;
         min-height: 50%;
         padding: 25px 0;
         display: flex;
@@ -94,9 +71,7 @@ body {
     }
 
     .container4 {
-        border: 5px dotted yellow;
-        position: relative;
-        width: 70%;
+        width: 100%;
         min-height: 50%;
         padding: 25px 0;
         display: flex;
@@ -105,9 +80,7 @@ body {
         align-items: flex-start;
     }
         .container5 {
-            border: 5px dotted yellow;
-            position: relative;
-            width: 70%;
+            width: 100%;
             min-height: 50%;
             padding: 25px 0;
             display: flex;
@@ -115,6 +88,15 @@ body {
             justify-content: space-around;
     
         
+    }
+    .container6 {
+        width: 100%;
+        min-height: 50%;
+        padding: 25px 0;
+        display: flex;
+        background-color: yellow;
+        justify-content: center;
+        align-items: center;
     }
 
     .card1 {
@@ -138,7 +120,7 @@ body {
         border: 1px solid black;
         border-radius: 15px;
         min-width: 100px;
-        min-height: 200px;
+        min-height: 150px;
         display: flex;
         align-items: center;
         flex-basis: 180px;
@@ -148,17 +130,6 @@ body {
         justify-content: center;
     }
 
-    .container6 {
-        border: 5px dotted yellow;
-        position: relative;
-        width: 70%;
-        min-height: 50%;
-        padding: 25px 0;
-        display: flex;
-        background-color: yellow;
-        justify-content: center;
-        align-items: center;
-    }
 
     .card3 {        background-color: red;
         border: 1px solid black;
@@ -172,4 +143,6 @@ body {
         align-self: center;
         margin: 20px;
         justify-content: center;
-    flex-grow: 0.25; }
+    flex-grow: 0.5; }
+
+    section {display: inline-bloc;}
